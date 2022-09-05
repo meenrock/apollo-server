@@ -13,9 +13,13 @@ async function startServer() {
     await server.start();
     server.applyMiddleware({app, path: './graphql'})
 
+    app.use((req, res) => {
+        res.send("testing apollo server");
+    });
+
     app.listen({ port: 3001}, () => {
         console.log("Server Started on PORT 3001")
-    })
+    });
 
 }
 
