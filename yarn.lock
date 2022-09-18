@@ -251,6 +251,14 @@
     "@graphql-tools/utils" "8.10.1"
     "tslib" "^2.4.0"
 
+"@graphql-tools/merge@8.3.6":
+  "integrity" "sha512-uUBokxXi89bj08P+iCvQk3Vew4vcfL5ZM6NTylWi8PIpoq4r5nJ625bRuN8h2uubEdRiH8ntN9M4xkd/j7AybQ=="
+  "resolved" "https://registry.npmjs.org/@graphql-tools/merge/-/merge-8.3.6.tgz"
+  "version" "8.3.6"
+  dependencies:
+    "@graphql-tools/utils" "8.12.0"
+    "tslib" "^2.4.0"
+
 "@graphql-tools/mock@^8.1.2":
   "integrity" "sha512-fLZglFyD/nkejYtPZ0vZLe8zqi0TL/SMgEz715Ir/Kr7zpmczQD1t8Wn3o1jzi58q8dQnvGTWxdt5tM0a5Tm4g=="
   "resolved" "https://registry.npmjs.org/@graphql-tools/mock/-/mock-8.7.4.tgz"
@@ -271,6 +279,16 @@
     "tslib" "^2.4.0"
     "value-or-promise" "1.0.11"
 
+"@graphql-tools/schema@^9.0.4":
+  "integrity" "sha512-B/b8ukjs18fq+/s7p97P8L1VMrwapYc3N2KvdG/uNThSazRRn8GsBK0Nr+FH+mVKiUfb4Dno79e3SumZVoHuOQ=="
+  "resolved" "https://registry.npmjs.org/@graphql-tools/schema/-/schema-9.0.4.tgz"
+  "version" "9.0.4"
+  dependencies:
+    "@graphql-tools/merge" "8.3.6"
+    "@graphql-tools/utils" "8.12.0"
+    "tslib" "^2.4.0"
+    "value-or-promise" "1.0.11"
+
 "@graphql-tools/schema@9.0.2":
   "integrity" "sha512-FnBM1PMKQ6y8KlzeFocnEwcGA/IT++z4v+hvvwwXL+IUYDNqmrp9XYNklpQRb/KKSbTtKnQapCWNiVNex7jl+Q=="
   "resolved" "https://registry.npmjs.org/@graphql-tools/schema/-/schema-9.0.2.tgz"
@@ -285,6 +303,13 @@
   "integrity" "sha512-UYi/afPvxZ8mz0LjplMxOSmGDPenVS/Q0zJ/6LOyF9yZdJYIDe+J+Qr/I9+rCYQmgBW4BJeRUUc7VoUzZPfZDA=="
   "resolved" "https://registry.npmjs.org/@graphql-tools/utils/-/utils-8.10.1.tgz"
   "version" "8.10.1"
+  dependencies:
+    "tslib" "^2.4.0"
+
+"@graphql-tools/utils@8.12.0":
+  "integrity" "sha512-TeO+MJWGXjUTS52qfK4R8HiPoF/R7X+qmgtOYd8DTH0l6b+5Y/tlg5aGeUJefqImRq7nvi93Ms40k/Uz4D5CWw=="
+  "resolved" "https://registry.npmjs.org/@graphql-tools/utils/-/utils-8.12.0.tgz"
+  "version" "8.12.0"
   dependencies:
     "tslib" "^2.4.0"
 
@@ -1205,6 +1230,11 @@
   "version" "4.0.0"
   dependencies:
     "repeating" "^2.0.0"
+
+"dotenv@^16.0.2":
+  "integrity" "sha512-JvpYKUmzQhYoIFgK2MOnF3bciIZoItIIoryihy0rIA+H4Jy0FmgyKYAHCTN98P5ybGSJcIFbh6QKeJdtZd1qhA=="
+  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-16.0.2.tgz"
+  "version" "16.0.2"
 
 "ecdsa-sig-formatter@1.0.11":
   "integrity" "sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ=="
