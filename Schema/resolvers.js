@@ -1,6 +1,10 @@
+import { GraphQLUpload } from 'graphql-upload'
+
 const {users} = require("../userData")
 
 const resolvers = {
+    Upload: GraphQLUpload, 
+
     Query: {
         fetchUsers() {
             return users
