@@ -6,4 +6,4 @@ const userQueriesSchema = `
 
 `
   
-  export { userQueries, userQueriesSchema }
+export { userQueries, userQueriesSchema }
