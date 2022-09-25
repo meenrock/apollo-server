@@ -1,2 +1,3 @@
 export { userQueries, userQueriesSchema } from './queries'
-export { TypeDef } from './typedef'
+export { userMutations, userMutationSchema } from './mutations'
+export { TypeDefs } from './typedef'
