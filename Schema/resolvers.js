@@ -1,4 +1,5 @@
 import { GraphQLUpload } from 'graphql-upload'
+import { userQueries, userMutations } from './users'
 
 const {users} = require("../userData")
 
@@ -22,7 +23,10 @@ const resolvers = {
 export const newresolvers = {
     Upload: GraphQLUpload,
     Query: {
-        
+        ...userQueries,
+    },
+    Mutation: {
+        ...userMutations,
     }
 }
 
