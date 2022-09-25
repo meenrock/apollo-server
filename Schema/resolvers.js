@@ -19,4 +19,11 @@ const resolvers = {
     },
 }
 
+export const newresolvers = {
+    Upload: GraphQLUpload,
+    Query: {
+        
+    }
+}
+
 module.exports = {resolvers}
