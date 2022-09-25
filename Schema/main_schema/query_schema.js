@@ -1,2 +1,7 @@
 import { userQueriesSchema } from "../users";
-import {}
+
+export const querySchema = `
+    type Query {
+        
+    }
+`
