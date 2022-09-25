@@ -1,7 +1,7 @@
-const TypeDef = `
+const userTypeDefs = `
 
 `
 
 export default `
-${TypeDef}
+${userTypeDefs}
 `
