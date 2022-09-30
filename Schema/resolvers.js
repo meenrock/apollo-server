@@ -6,6 +6,7 @@ const resolvers = {
         fetchUsers() {
             return users
         }
+        
     },
 
     Mutation: {
