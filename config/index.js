@@ -28,9 +28,4 @@ const dbConfig = {
   },
 }
 
-const awsConfig = {
-  S3Bucket: process.env.S3_BUCKET,
-  region: process.env.S3_REGION,
-}
-
-export { port, env, dbConfig, awsConfig }
+export { port, env, dbConfig }
